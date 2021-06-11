@@ -4,7 +4,8 @@
   "version": "1.20.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+    "Jonah Snider <jonah.snider@voiceflow.com>"
   ],
   "license": "MIT",
   "repository": "voiceflow/body-parser",
