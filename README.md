@@ -1,4 +1,4 @@
-# body-parser
+# @voiceflow/body-parser
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -451,11 +451,11 @@ app.use(bodyParser.text({ type: 'text/html' }))
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/body-parser.svg
-[npm-url]: https://npmjs.org/package/body-parser
-[coveralls-image]: https://img.shields.io/coveralls/expressjs/body-parser/master.svg
-[coveralls-url]: https://coveralls.io/r/expressjs/body-parser?branch=master
-[downloads-image]: https://img.shields.io/npm/dm/body-parser.svg
-[downloads-url]: https://npmjs.org/package/body-parser
-[github-actions-ci-image]: https://img.shields.io/github/workflow/status/expressjs/body-parser/ci/master?label=ci
-[github-actions-ci-url]: https://github.com/expressjs/body-parser?query=workflow%3Aci
+[npm-image]: https://img.shields.io/npm/v/@voiceflow/body-parser.svg
+[npm-url]: https://npmjs.org/package/@voiceflow/body-parser
+[coveralls-image]: https://img.shields.io/coveralls/voiceflow/body-parser/master.svg
+[coveralls-url]: https://coveralls.io/r/voiceflow/body-parser?branch=master
+[downloads-image]: https://img.shields.io/npm/dm/@voiceflow/body-parser.svg
+[downloads-url]: https://npmjs.org/package/@voiceflow/body-parser
+[github-actions-ci-image]: https://img.shields.io/github/workflow/status/voiceflow/body-parser/ci/master?label=ci
+[github-actions-ci-url]: https://github.com/voiceflow/body-parser?query=workflow%3Aci
