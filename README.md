@@ -91,14 +91,14 @@ to `'100kb'`.
 
 ##### reviver
 
-The `reviver` option is passed directly to `JSON.parse` as the second
+The `reviver` option is passed directly to the JSON parser as the second
 argument. You can find more information on this argument
 [in the MDN documentation about JSON.parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Example.3A_Using_the_reviver_parameter).
 
 ##### strict
 
 When set to `true`, will only accept arrays and objects; when `false` will
-accept anything `JSON.parse` accepts. Defaults to `true`.
+accept anything the JSON parser accepts. Defaults to `true`.
 
 ##### type
 
@@ -116,6 +116,11 @@ value. Defaults to `application/json`.
 The `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,
 where `buf` is a `Buffer` of the raw request body and `encoding` is the
 encoding of the request. The parsing can be aborted by throwing an error.
+
+##### customJSONParser
+
+The `customJSONParser` option, if supplied, is called to parse a string into an
+object. Defaults to `JSON.parse`.
 
 ### bodyParser.raw([options])
 
