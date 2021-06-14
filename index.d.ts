@@ -54,7 +54,7 @@ declare namespace bodyParser {
          */
         strict?: boolean;
         /**
-         * The `customJSONParser` option, if supplied, is called to parse a string into an object. Defaults to `JSON.parse`.
+         * The `customJSONParser` option, if supplied, is called to parse a string into an object. Defaults to `secure-json-parse`.
          */
         customJSONParser?: typeof JSON.parse
     }

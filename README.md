@@ -120,7 +120,7 @@ encoding of the request. The parsing can be aborted by throwing an error.
 ##### customJSONParser
 
 The `customJSONParser` option, if supplied, is called to parse a string into an
-object. Defaults to `JSON.parse`.
+object. Defaults to `secure-json-parse`.
 
 ### bodyParser.raw([options])
 
