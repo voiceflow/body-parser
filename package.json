@@ -1,7 +1,7 @@
 {
   "name": "@voiceflow/body-parser",
   "description": "Node.js body parsing middleware",
-  "version": "1.21.0",
+  "version": "1.21.1",
   "publishConfig": {
     "access": "public"
   },
